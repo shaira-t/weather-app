@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEFA; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-app {
+    background: linear-gradient(135deg, #ffffff, #e3f2fd); /* Subtle gradient */
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 375px;
+    height: 667px;
+    padding: 16px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.header button {
+    background: #007BFF; /* Blue buttons */
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    /*transition: background 0.3s;*/
+}
+
+.header button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+.weather-info {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.weather-info h1 {
+    font-size: 48px;
+    margin: 8px 0;
+    color: #ff4500; /* Bright orange */
+}
+
+.weather-info h2 {
+    font-size: 20px;
+    color: #333333; /* Darker text */
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.details div {
+    text-align: center;
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.additional-info {
+    background-color: #e3f2fd; /* Light blue */
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    color: #555;
+}
+
+.additional-info p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 8px;
+}
+
+.footer h3 {
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.forecast div {
+    text-align: center;
+    width: 20%;
+    background-color: #f1f8ff;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.temp-range {
+    font-size: 12px;
+    color: #666;
+}
